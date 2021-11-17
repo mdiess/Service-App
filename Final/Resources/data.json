@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1001,
+        "title": "Service Opportunity 1",
+        "place": "Santa Clara University",
+        "city": "Santa Clara, CA",
+        "coordinates": {
+            "longitude": -121.955238,
+            "latitude": 37.354107
+        },
+        "description": "This is your opportunity to serve your community",
+        "imageName": "scu"
+    },
+    {
+        "id": 1002,
+        "title": "Service Opportunity 2",
+        "place": "China",
+        "city": "Hong Kong, CH",
+        "coordinates": {
+            "longitude": 121.955238,
+            "latitude": 37.354107
+        },
+        "description": "This is a service opportunity in China",
+        "imageName": "bcp"
+    },
+    {
+        "id": 1003,
+        "title": "Portland Service Op",
+        "place": "Moda Center",
+        "city": "Portland, OR",
+        "coordinates": {
+            "longitude": -122.6661,
+            "latitude": 45.5317
+        },
+        "description": "Work for the Portland Trail Blazers",
+        "imageName": "moda"
+    }
+]
