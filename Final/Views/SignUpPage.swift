@@ -81,6 +81,7 @@ struct SignUpPage: View {
                             .background(Color(red: 12/255, green: 78/255, blue: 97/255))
                             .font(.system(size: 16))
                             .cornerRadius(22)
+                            .shadow(radius: 10)
                     }
                 }
                 VStack {

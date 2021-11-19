@@ -17,6 +17,7 @@ struct ProfilePage: View {
                 Image(systemName: "person.crop.circle")
                     .font(.system(size: 150))
                     .foregroundColor(.gray)
+                    .shadow(radius: 10)
                 Text("Student Name")
                     .fontWeight(.bold)
                     .font(.system(size: 40))
@@ -30,6 +31,7 @@ struct ProfilePage: View {
                         .foregroundColor(.white)
                         .background(Color(red: 12/255, green: 78/255, blue: 97/255))
                         .cornerRadius(22)
+                        .shadow(radius: 10)
                 }
                 Spacer()
                 Button(action: {

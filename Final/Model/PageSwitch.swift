@@ -12,7 +12,7 @@ struct PageSwitch: View {
     var body: some View {
         switch viewRouter.currentPage {
         case .page1:
-            LoginPage(viewRouter: viewRouter)
+            LoginPage(viewRouter: viewRouter, logincreds: logincreds[0])
         case .page2:
             serviceList(viewRouter: viewRouter)
         case .page3:

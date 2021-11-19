@@ -26,6 +26,9 @@
 		4D660CC72744A3140049763A /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D660CC62744A3140049763A /* data.json */; };
 		4DB9995C2746F8C600601867 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB9995B2746F8C600601867 /* ProfilePage.swift */; };
 		4DB999642747380F00601867 /* LogHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB999632747380F00601867 /* LogHours.swift */; };
+		4DB9996627473D7500601867 /* loginCreds.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DB9996527473D7500601867 /* loginCreds.json */; };
+		4DB9996827473DBD00601867 /* CredStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB9996727473DBD00601867 /* CredStruct.swift */; };
+		4DB9996A274744E200601867 /* modeldata1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB99969274744E200601867 /* modeldata1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		4D660CC62744A3140049763A /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		4DB9995B2746F8C600601867 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
 		4DB999632747380F00601867 /* LogHours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogHours.swift; sourceTree = "<group>"; };
+		4DB9996527473D7500601867 /* loginCreds.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = loginCreds.json; sourceTree = "<group>"; };
+		4DB9996727473DBD00601867 /* CredStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredStruct.swift; sourceTree = "<group>"; };
+		4DB99969274744E200601867 /* modeldata1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modeldata1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +131,9 @@
 				4D660CBE2744A2680049763A /* PageNum.swift */,
 				4D660CC02744A2960049763A /* ViewRouter.swift */,
 				4D660CC22744A2BF0049763A /* services.swift */,
+				4DB9996727473DBD00601867 /* CredStruct.swift */,
 				4D660CC42744A2E90049763A /* modeldata.swift */,
+				4DB99969274744E200601867 /* modeldata1.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -134,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				4D660CC62744A3140049763A /* data.json */,
+				4DB9996527473D7500601867 /* loginCreds.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -196,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D660CA72744A0BA0049763A /* Preview Assets.xcassets in Resources */,
+				4DB9996627473D7500601867 /* loginCreds.json in Resources */,
 				4D660CC72744A3140049763A /* data.json in Resources */,
 				4D660CA42744A0BA0049763A /* Assets.xcassets in Resources */,
 			);
@@ -212,8 +222,10 @@
 				4D660CC52744A2E90049763A /* modeldata.swift in Sources */,
 				4D660CC32744A2BF0049763A /* services.swift in Sources */,
 				4D660CB72744A1B70049763A /* mapview.swift in Sources */,
+				4DB9996827473DBD00601867 /* CredStruct.swift in Sources */,
 				4D660CBF2744A2680049763A /* PageNum.swift in Sources */,
 				4D660CC12744A2960049763A /* ViewRouter.swift in Sources */,
+				4DB9996A274744E200601867 /* modeldata1.swift in Sources */,
 				4D660CA22744A0B70049763A /* ContentView.swift in Sources */,
 				4D660CBB2744A20D0049763A /* SignUpPage.swift in Sources */,
 				4D660CB12744A1400049763A /* serviceList.swift in Sources */,

@@ -31,6 +31,7 @@ struct serviceList: View {
                             .foregroundColor(.gray)
                             .font(.system(size: 30))
                             .padding(.trailing, 15)
+                            .shadow(radius: 10)
                     }
                 }
                 Spacer()

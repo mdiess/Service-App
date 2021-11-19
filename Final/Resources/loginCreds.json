@@ -1,0 +1,14 @@
+[
+    {
+        "id1": 1,
+        "uName": "Max",
+        "pWord": "Beddie",
+        "person": "Student"
+    },
+    {
+        "id1": 2,
+        "uName": "Tilly",
+        "pWord": "Diess",
+        "person": "Admin"
+    }
+]
