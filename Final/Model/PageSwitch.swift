@@ -14,9 +14,13 @@ struct PageSwitch: View {
         case .page1:
             LoginPage(viewRouter: viewRouter)
         case .page2:
-            serviceList()
+            serviceList(viewRouter: viewRouter)
         case .page3:
             SignUpPage(viewRouter: viewRouter)
+        case .page4:
+            ProfilePage(viewRouter: viewRouter)
+        case .page5:
+            LogHours(viewRouter: viewRouter)
         }
     }
 }

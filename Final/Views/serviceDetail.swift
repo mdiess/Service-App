@@ -12,19 +12,27 @@ struct serviceDetail: View {
     var body: some View {
         ScrollView {
             VStack {
-                mapview(coordinate: Service.locationCoordinate).frame(height: 300).ignoresSafeArea(edges: .top)
-                circleimage(image: Service.image).offset(y: -130).padding(.bottom, -130)
+                mapview(coordinate: Service.locationCoordinate)
+                    .frame(height: 300)
+                    .ignoresSafeArea(edges: .top)
+                circleimage(image: Service.image)
+                    .offset(y: -130)
+                    .padding(.bottom, -130)
                 VStack(alignment: .leading) {
-                    Text(Service.title).font(.title).foregroundColor(.red)
+                    Text(Service.title)
+                        .font(.title)
+                        .foregroundColor(.red)
                     HStack {
-                        Text(Service.place).font(.subheadline)
+                        Text(Service.place)
+                            .font(.subheadline)
                         Spacer()
                         Text(Service.city)
                     }
                     .font(.subheadline)
                     .foregroundColor(.secondary)
                     Divider()
-                    Text("About \(Service.title)").font(.title2)
+                    Text("About \(Service.title)")
+                        .font(.title2)
                     Text(Service.description)
                 }
                 .padding()

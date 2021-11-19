@@ -11,7 +11,9 @@ struct serviceRow: View {
     var Service: services
     var body: some View {
         HStack {
-            Service.image.resizable().frame(width: 50, height: 50)
+            Service.image
+                .resizable()
+                .frame(width: 50, height: 50)
             Text(Service.title)
             Spacer()
         }

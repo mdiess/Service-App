@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct LoginPage: View {
+    // change username to emailAddress
     @State var username: String = ""
     @State var password: String = ""
     @StateObject var viewRouter: ViewRouter
@@ -53,7 +54,7 @@ struct LoginPage: View {
                 }
                 .padding(.top, 20)
                 Button(action: {
-                    print("Signing up")
+                    viewRouter.currentPage = .page3
                 }) {
                     Text("Sign up")
                         .foregroundColor(.white)

@@ -24,6 +24,8 @@
 		4D660CC32744A2BF0049763A /* services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D660CC22744A2BF0049763A /* services.swift */; };
 		4D660CC52744A2E90049763A /* modeldata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D660CC42744A2E90049763A /* modeldata.swift */; };
 		4D660CC72744A3140049763A /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D660CC62744A3140049763A /* data.json */; };
+		4DB9995C2746F8C600601867 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB9995B2746F8C600601867 /* ProfilePage.swift */; };
+		4DB999642747380F00601867 /* LogHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB999632747380F00601867 /* LogHours.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		4D660CC22744A2BF0049763A /* services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = services.swift; sourceTree = "<group>"; };
 		4D660CC42744A2E90049763A /* modeldata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modeldata.swift; sourceTree = "<group>"; };
 		4D660CC62744A3140049763A /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		4DB9995B2746F8C600601867 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		4DB999632747380F00601867 /* LogHours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogHours.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				4D660CA12744A0B70049763A /* ContentView.swift */,
 				4D660CAE2744A1160049763A /* serviceRow.swift */,
 				4D660CB02744A1400049763A /* serviceList.swift */,
+				4DB9995B2746F8C600601867 /* ProfilePage.swift */,
+				4DB999632747380F00601867 /* LogHours.swift */,
 				4D660CB22744A1630049763A /* serviceDetail.swift */,
 				4D660CB42744A1900049763A /* circleimage.swift */,
 				4D660CB62744A1B70049763A /* mapview.swift */,
@@ -214,6 +220,8 @@
 				4D660CB32744A1630049763A /* serviceDetail.swift in Sources */,
 				4D660CB52744A1900049763A /* circleimage.swift in Sources */,
 				4D660CA02744A0B70049763A /* FinalApp.swift in Sources */,
+				4DB999642747380F00601867 /* LogHours.swift in Sources */,
+				4DB9995C2746F8C600601867 /* ProfilePage.swift in Sources */,
 				4D660CBD2744A2450049763A /* PageSwitch.swift in Sources */,
 				4D660CAF2744A1160049763A /* serviceRow.swift in Sources */,
 			);
